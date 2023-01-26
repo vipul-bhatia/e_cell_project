@@ -99,6 +99,17 @@ class _HomePageState extends State<HomePage> {
                   
                   },
                 ),
+                SizedBox(
+                  height: 20,
+                  width: 20,
+                ),
+                ListTile(
+                  leading: Icon(Icons.photo_album_sharp),
+                  title: Text('Gallery'),
+                  onTap: () {
+                    Navigator.pushNamed(context, '/drawerGallery');
+                  },
+                ),
               ],
             ),
           ),

@@ -4,6 +4,7 @@ import 'package:e_cell_project/pages/feedback.dart';
 import 'package:e_cell_project/pages/home.dart';
 import 'package:e_cell_project/pages/onboarding.dart';
 import 'package:flutter/material.dart';
+import '../pages/drawerGallery.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,6 +47,7 @@ class MyHomePage extends StatelessWidget {
               '/home': (context) => HomePage(),
               '/alumini':(context) => AluminiWidget(),
               '/feedback': (context) => feedbackPage(),
+              '/drawerGallery': (context) => drawerGallery(),
               
             },
           );
